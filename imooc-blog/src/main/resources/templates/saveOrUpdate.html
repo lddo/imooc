@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>保存用户</title>
+</head>
+<body>
+    <form th:action="@{/users/saveOrUpdate}" method="post">
+        <table>
+            <tbody>
+                <input type="hidden" name="id"/>
+                <tr>
+                    <td>姓名：</td>
+                    <td>
+                        <input type="text" name="name" th:value="${user.name}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>邮箱：</td>
+                    <td>
+                        <input type="text" name="email" th:value="${user.email}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">保存</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
