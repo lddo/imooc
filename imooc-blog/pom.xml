@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.4.RELEASE</version>
+        <version>2.1.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.uppp</groupId>
     <artifactId>imooc-blog</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>imooc-blog</name>
-    <description>Demo project for Spring Boot</description>
+    <description>博客项目</description>
 
     <properties>
         <java.version>1.8</java.version>
